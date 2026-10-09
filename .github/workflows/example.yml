@@ -6,3 +6,10 @@ on:
   push:
     branches: [ main ]
 
+
+    jobs:
+      build:
+        runs-on: ubuntu latest
+        steps:
+          - name : print repo details 
+          run:echo "helllow world"
